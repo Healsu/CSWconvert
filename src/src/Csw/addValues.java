@@ -10,6 +10,7 @@ public class addValues {
     static int collectionSort = 1;
 
     public static void addInfo(ArrayList TABLE) {
+        InsertData.makeDDL(TABLE);
         try {
             File file = new File("src/src/Csw/text.csw");
             Scanner input = new Scanner(file);
@@ -28,7 +29,8 @@ public class addValues {
                 showOnScreen.add(currentLine[4]);
                 showOnScreen.add(currentLine[5]);
 
-                InsertData.PutDataFile(TABLE, showOnScreen);
+                InsertData.makeDML(TABLE, showOnScreen);
+
                 collection.add(showOnScreen);
                 //System.out.println("TABLE "+collectionSort+showOnScreen);
                 collectionSort+=1;

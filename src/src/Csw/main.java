@@ -8,8 +8,14 @@ public class main {
 
     static ArrayList startTabel = new ArrayList();
 
+
+
+    //Dette er vores main hvor vi begynder med at tage den første linje af filen for at kunne beskrive vores TABEL
     public static void main(String[] args) {
+
+        //Vi vil gerne tjekke først om hvis der er filer som dataen kan komme ind på
         InsertData.makeFile();
+
         try {
             File file = new File("src/src/Csw/text.csw");
             Scanner input = new Scanner(file);
@@ -23,13 +29,15 @@ public class main {
             addValues.addInfo(startTabel);
 
 
+
+
         } catch (Exception e) {
             System.out.println("Cant find the file");
         }
 
     }
 
-
+    //Her kommer den første linje af koden ind i et array, som vi bruger senere til at formatere sql ddl
     public static ArrayList<String> nyListe(String[] currentLine) {
         String year = currentLine[0];
         String length = currentLine[1];
