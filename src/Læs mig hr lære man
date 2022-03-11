@@ -1,0 +1,8 @@
+Jeg forstår ikke 100% hvad du vil have i opgaven om det skal laves med java eller man skal lave det med sql.
+
+Men nu har jeg lavet det på en måde man kan se hvordan det ser ud i sql, hvor man bare kan printe sin information ind
+og få dataen spyttet ud som en sql TABLE (med få justeringer selvølgelig).
+
+Giv gerne feedback om hvis du kan om hvordan du havde tænkt dig det skulle laves.
+
+PS kan ikke rigtig flytte ddl og dlm filen uden at den laver en ny, så det er med vilje at den bare står ude for src mappen.
