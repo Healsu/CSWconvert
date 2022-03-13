@@ -2,7 +2,8 @@ Jeg forstår ikke 100% hvad du vil have i opgaven om det skal laves med java ell
 
 Men nu har jeg lavet det på en måde man kan se hvordan det ser ud i sql, hvor man bare kan printe sin information ind
 og få dataen spyttet ud som en sql TABLE (med få justeringer selvølgelig).
-Dataen overlapper også hinanden, aka putter oven på hinanden så man skal lige slette den tidligere text før man bruger den igen
+Dataen overlapper også hinanden, aka putter oven på hinanden så man skal lige slette den tidligere text før man bruger den igen.
+Ved godt at man kunne løse det med at slette kontexten på siden med en blank string men havde ikke tid til det.
 
 Giv gerne feedback om hvis du kan om hvordan du havde tænkt dig det skulle laves.
 
